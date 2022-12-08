@@ -24,7 +24,7 @@ pipeline{
     post {
         success {
             slackSend color:"good" , message:"Success build for ${BUILD_ID}"\
-            Github link:https://github.com/Esschichu/gallery
+            Github link:https://github.com/Esschichu/gallery/ \
             Heroku link:https://dashboard.heroku.com/apps/gentle-bayou-84640
             emailext attachLog: true, 
                 body:
