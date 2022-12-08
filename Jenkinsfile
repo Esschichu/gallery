@@ -36,6 +36,7 @@ pipeline{
                 subject: "Status: 'SUCCESS' -Job \'${env.JOB_NAME}:${env.BUILD_NUMBER}\'", 
                 to: 'achiengesther96@gmail.com'
         }
+    }
         failure {
             emailext attachLog: true, 
                 body:
