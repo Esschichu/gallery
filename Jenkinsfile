@@ -52,7 +52,4 @@ pipeline{
                 to: 'achiengesther96@gmail.com'
         }
 }
-        
-    }
-
 }
